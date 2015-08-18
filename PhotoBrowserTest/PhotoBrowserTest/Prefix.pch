@@ -1,0 +1,15 @@
+//
+//  Prefix.pch
+//  PhotoBrowserTest
+//
+//  Created by Igor Golovnya on 7/4/15.
+//  Copyright (c) 2015 Igor Golovnya. All rights reserved.
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+
+    #define WEAKIFY(x) __weak __typeof(x) weak##x = x;
+    #define STRONGIFY(x) __typeof(x) x = weak##x;
+
+#endif
