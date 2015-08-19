@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C1F71FC1975AB96002D8167 /* TLTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F71FB1975AB96002D8167 /* TLTweet.m */; };
+		3C1F71FF1975B102002D8167 /* TLTweetsLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F71FE1975B102002D8167 /* TLTweetsLocationManager.m */; };
+		3C26EB3C197328AE00EB74A8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C26EB3B197328AE00EB74A8 /* Social.framework */; };
+		3C26EB3E197328B500EB74A8 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C26EB3D197328B500EB74A8 /* Accounts.framework */; };
+		3C4D0AFF1972793E001F4030 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4D0AFE1972793E001F4030 /* CoreLocation.framework */; };
+		3C4D0B0119727945001F4030 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4D0B0019727945001F4030 /* MapKit.framework */; };
+		3C5C1A421971DF950029B2AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5C1A411971DF950029B2AF /* Foundation.framework */; };
+		3C5C1A441971DF950029B2AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5C1A431971DF950029B2AF /* CoreGraphics.framework */; };
+		3C5C1A461971DF950029B2AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5C1A451971DF950029B2AF /* UIKit.framework */; };
+		3C5C1A4C1971DF950029B2AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C1A4A1971DF950029B2AF /* InfoPlist.strings */; };
+		3C5C1A4E1971DF950029B2AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C1A4D1971DF950029B2AF /* main.m */; };
+		3C5C1A521971DF950029B2AF /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C1A511971DF950029B2AF /* TLAppDelegate.m */; };
+		3C5C1A551971DF950029B2AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C1A531971DF950029B2AF /* Main.storyboard */; };
+		3C5C1A581971DF950029B2AF /* TLMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C1A571971DF950029B2AF /* TLMasterViewController.m */; };
+		3C5C1A5B1971DF950029B2AF /* TLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C1A5A1971DF950029B2AF /* TLDetailViewController.m */; };
+		3C5C1A5D1971DF950029B2AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C1A5C1971DF950029B2AF /* Images.xcassets */; };
+		3C5C1A641971DF950029B2AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5C1A631971DF950029B2AF /* XCTest.framework */; };
+		3C5C1A651971DF950029B2AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5C1A411971DF950029B2AF /* Foundation.framework */; };
+		3C5C1A661971DF950029B2AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5C1A451971DF950029B2AF /* UIKit.framework */; };
+		3C5C1A6E1971DF950029B2AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C1A6C1971DF950029B2AF /* InfoPlist.strings */; };
+		3C5C1A701971DF950029B2AF /* TwitLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C1A6F1971DF950029B2AF /* TwitLocationTests.m */; };
+		3C7B0B46197722F7003BDFAC /* TLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B0B45197722F7003BDFAC /* TLTableViewCell.m */; };
+		3C7B0B4919773E73003BDFAC /* TLMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B0B4819773E73003BDFAC /* TLMapViewController.m */; };
+		3C7B0B4C19773FAB003BDFAC /* TLTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B0B4B19773FAB003BDFAC /* TLTabBarViewController.m */; };
+		3C7B0B5019774BD7003BDFAC /* Timeline-List-Grid-List-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7B0B4E19774BD7003BDFAC /* Timeline-List-Grid-List-icon.png */; };
+		3C7B0B5219774CCD003BDFAC /* Maps-Globe-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7B0B5119774CCD003BDFAC /* Maps-Globe-icon.png */; };
+		E5C98EAC56104033BF17BB8D /* libPods-TwitLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4802A00E72449D7A80151AA /* libPods-TwitLocation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C5C1A671971DF950029B2AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5C1A361971DF940029B2AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C5C1A3D1971DF940029B2AF;
+			remoteInfo = TwitLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029C22D5C2494641BA4D2D98 /* Pods-TwitLocation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitLocation.xcconfig"; path = "Pods/Pods-TwitLocation.xcconfig"; sourceTree = "<group>"; };
+		3C1F71FA1975AB96002D8167 /* TLTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTweet.h; sourceTree = "<group>"; };
+		3C1F71FB1975AB96002D8167 /* TLTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTweet.m; sourceTree = "<group>"; };
+		3C1F71FD1975B102002D8167 /* TLTweetsLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTweetsLocationManager.h; sourceTree = "<group>"; };
+		3C1F71FE1975B102002D8167 /* TLTweetsLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTweetsLocationManager.m; sourceTree = "<group>"; };
+		3C26EB3B197328AE00EB74A8 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		3C26EB3D197328B500EB74A8 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		3C4D0AFE1972793E001F4030 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3C4D0B0019727945001F4030 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3C5C1A3E1971DF950029B2AF /* TwitLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5C1A411971DF950029B2AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C5C1A431971DF950029B2AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C5C1A451971DF950029B2AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C5C1A491971DF950029B2AF /* TwitLocation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitLocation-Info.plist"; sourceTree = "<group>"; };
+		3C5C1A4B1971DF950029B2AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C5C1A4D1971DF950029B2AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C5C1A4F1971DF950029B2AF /* TwitLocation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwitLocation-Prefix.pch"; sourceTree = "<group>"; };
+		3C5C1A501971DF950029B2AF /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
+		3C5C1A511971DF950029B2AF /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
+		3C5C1A541971DF950029B2AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C5C1A561971DF950029B2AF /* TLMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLMasterViewController.h; sourceTree = "<group>"; };
+		3C5C1A571971DF950029B2AF /* TLMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLMasterViewController.m; sourceTree = "<group>"; };
+		3C5C1A591971DF950029B2AF /* TLDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLDetailViewController.h; sourceTree = "<group>"; };
+		3C5C1A5A1971DF950029B2AF /* TLDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLDetailViewController.m; sourceTree = "<group>"; };
+		3C5C1A5C1971DF950029B2AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C5C1A621971DF950029B2AF /* TwitLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5C1A631971DF950029B2AF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3C5C1A6B1971DF950029B2AF /* TwitLocationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitLocationTests-Info.plist"; sourceTree = "<group>"; };
+		3C5C1A6D1971DF950029B2AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C5C1A6F1971DF950029B2AF /* TwitLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitLocationTests.m; sourceTree = "<group>"; };
+		3C7B0B44197722F7003BDFAC /* TLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTableViewCell.h; sourceTree = "<group>"; };
+		3C7B0B45197722F7003BDFAC /* TLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTableViewCell.m; sourceTree = "<group>"; };
+		3C7B0B4719773E73003BDFAC /* TLMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMapViewController.h; sourceTree = "<group>"; };
+		3C7B0B4819773E73003BDFAC /* TLMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMapViewController.m; sourceTree = "<group>"; };
+		3C7B0B4A19773FAB003BDFAC /* TLTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTabBarViewController.h; sourceTree = "<group>"; };
+		3C7B0B4B19773FAB003BDFAC /* TLTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTabBarViewController.m; sourceTree = "<group>"; };
+		3C7B0B4E19774BD7003BDFAC /* Timeline-List-Grid-List-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timeline-List-Grid-List-icon.png"; sourceTree = "<group>"; };
+		3C7B0B5119774CCD003BDFAC /* Maps-Globe-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Maps-Globe-icon.png"; sourceTree = "<group>"; };
+		A4802A00E72449D7A80151AA /* libPods-TwitLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwitLocation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C5C1A3B1971DF940029B2AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C26EB3E197328B500EB74A8 /* Accounts.framework in Frameworks */,
+				3C26EB3C197328AE00EB74A8 /* Social.framework in Frameworks */,
+				3C4D0B0119727945001F4030 /* MapKit.framework in Frameworks */,
+				3C4D0AFF1972793E001F4030 /* CoreLocation.framework in Frameworks */,
+				3C5C1A441971DF950029B2AF /* CoreGraphics.framework in Frameworks */,
+				3C5C1A461971DF950029B2AF /* UIKit.framework in Frameworks */,
+				3C5C1A421971DF950029B2AF /* Foundation.framework in Frameworks */,
+				E5C98EAC56104033BF17BB8D /* libPods-TwitLocation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5C1A5F1971DF950029B2AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5C1A641971DF950029B2AF /* XCTest.framework in Frameworks */,
+				3C5C1A661971DF950029B2AF /* UIKit.framework in Frameworks */,
+				3C5C1A651971DF950029B2AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C5C1A351971DF940029B2AF = {
+			isa = PBXGroup;
+			children = (
+				3C5C1A471971DF950029B2AF /* TwitLocation */,
+				3C5C1A691971DF950029B2AF /* TwitLocationTests */,
+				3C5C1A401971DF950029B2AF /* Frameworks */,
+				3C5C1A3F1971DF950029B2AF /* Products */,
+				029C22D5C2494641BA4D2D98 /* Pods-TwitLocation.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		3C5C1A3F1971DF950029B2AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C1A3E1971DF950029B2AF /* TwitLocation.app */,
+				3C5C1A621971DF950029B2AF /* TwitLocationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C5C1A401971DF950029B2AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C26EB3D197328B500EB74A8 /* Accounts.framework */,
+				3C26EB3B197328AE00EB74A8 /* Social.framework */,
+				3C4D0B0019727945001F4030 /* MapKit.framework */,
+				3C4D0AFE1972793E001F4030 /* CoreLocation.framework */,
+				3C5C1A411971DF950029B2AF /* Foundation.framework */,
+				3C5C1A431971DF950029B2AF /* CoreGraphics.framework */,
+				3C5C1A451971DF950029B2AF /* UIKit.framework */,
+				3C5C1A631971DF950029B2AF /* XCTest.framework */,
+				A4802A00E72449D7A80151AA /* libPods-TwitLocation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C5C1A471971DF950029B2AF /* TwitLocation */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C1A501971DF950029B2AF /* TLAppDelegate.h */,
+				3C5C1A511971DF950029B2AF /* TLAppDelegate.m */,
+				3C5C1A531971DF950029B2AF /* Main.storyboard */,
+				3C7B0B4A19773FAB003BDFAC /* TLTabBarViewController.h */,
+				3C7B0B4B19773FAB003BDFAC /* TLTabBarViewController.m */,
+				3C5C1A561971DF950029B2AF /* TLMasterViewController.h */,
+				3C5C1A571971DF950029B2AF /* TLMasterViewController.m */,
+				3C7B0B4719773E73003BDFAC /* TLMapViewController.h */,
+				3C7B0B4819773E73003BDFAC /* TLMapViewController.m */,
+				3C5C1A591971DF950029B2AF /* TLDetailViewController.h */,
+				3C5C1A5A1971DF950029B2AF /* TLDetailViewController.m */,
+				3C1F71FA1975AB96002D8167 /* TLTweet.h */,
+				3C1F71FB1975AB96002D8167 /* TLTweet.m */,
+				3C1F71FD1975B102002D8167 /* TLTweetsLocationManager.h */,
+				3C1F71FE1975B102002D8167 /* TLTweetsLocationManager.m */,
+				3C7B0B44197722F7003BDFAC /* TLTableViewCell.h */,
+				3C7B0B45197722F7003BDFAC /* TLTableViewCell.m */,
+				3C5C1A5C1971DF950029B2AF /* Images.xcassets */,
+				3C7B0B5119774CCD003BDFAC /* Maps-Globe-icon.png */,
+				3C7B0B4E19774BD7003BDFAC /* Timeline-List-Grid-List-icon.png */,
+				3C5C1A481971DF950029B2AF /* Supporting Files */,
+			);
+			path = TwitLocation;
+			sourceTree = "<group>";
+		};
+		3C5C1A481971DF950029B2AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C1A491971DF950029B2AF /* TwitLocation-Info.plist */,
+				3C5C1A4A1971DF950029B2AF /* InfoPlist.strings */,
+				3C5C1A4D1971DF950029B2AF /* main.m */,
+				3C5C1A4F1971DF950029B2AF /* TwitLocation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C5C1A691971DF950029B2AF /* TwitLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C1A6F1971DF950029B2AF /* TwitLocationTests.m */,
+				3C5C1A6A1971DF950029B2AF /* Supporting Files */,
+			);
+			path = TwitLocationTests;
+			sourceTree = "<group>";
+		};
+		3C5C1A6A1971DF950029B2AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C1A6B1971DF950029B2AF /* TwitLocationTests-Info.plist */,
+				3C5C1A6C1971DF950029B2AF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C5C1A3D1971DF940029B2AF /* TwitLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5C1A731971DF950029B2AF /* Build configuration list for PBXNativeTarget "TwitLocation" */;
+			buildPhases = (
+				B0721E6EC7404729A4738305 /* Check Pods Manifest.lock */,
+				3C5C1A3A1971DF940029B2AF /* Sources */,
+				3C5C1A3B1971DF940029B2AF /* Frameworks */,
+				3C5C1A3C1971DF940029B2AF /* Resources */,
+				7E47C8CD88C64EBC81D89322 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitLocation;
+			productName = TwitLocation;
+			productReference = 3C5C1A3E1971DF950029B2AF /* TwitLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C5C1A611971DF950029B2AF /* TwitLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5C1A761971DF950029B2AF /* Build configuration list for PBXNativeTarget "TwitLocationTests" */;
+			buildPhases = (
+				3C5C1A5E1971DF950029B2AF /* Sources */,
+				3C5C1A5F1971DF950029B2AF /* Frameworks */,
+				3C5C1A601971DF950029B2AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C5C1A681971DF950029B2AF /* PBXTargetDependency */,
+			);
+			name = TwitLocationTests;
+			productName = TwitLocationTests;
+			productReference = 3C5C1A621971DF950029B2AF /* TwitLocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C5C1A361971DF940029B2AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Igor Golovnya";
+				TargetAttributes = {
+					3C5C1A611971DF950029B2AF = {
+						TestTargetID = 3C5C1A3D1971DF940029B2AF;
+					};
+				};
+			};
+			buildConfigurationList = 3C5C1A391971DF940029B2AF /* Build configuration list for PBXProject "TwitLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C5C1A351971DF940029B2AF;
+			productRefGroup = 3C5C1A3F1971DF950029B2AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C5C1A3D1971DF940029B2AF /* TwitLocation */,
+				3C5C1A611971DF950029B2AF /* TwitLocationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C5C1A3C1971DF940029B2AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7B0B5019774BD7003BDFAC /* Timeline-List-Grid-List-icon.png in Resources */,
+				3C7B0B5219774CCD003BDFAC /* Maps-Globe-icon.png in Resources */,
+				3C5C1A5D1971DF950029B2AF /* Images.xcassets in Resources */,
+				3C5C1A4C1971DF950029B2AF /* InfoPlist.strings in Resources */,
+				3C5C1A551971DF950029B2AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5C1A601971DF950029B2AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5C1A6E1971DF950029B2AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E47C8CD88C64EBC81D89322 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-TwitLocation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0721E6EC7404729A4738305 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C5C1A3A1971DF940029B2AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5C1A581971DF950029B2AF /* TLMasterViewController.m in Sources */,
+				3C5C1A5B1971DF950029B2AF /* TLDetailViewController.m in Sources */,
+				3C7B0B4919773E73003BDFAC /* TLMapViewController.m in Sources */,
+				3C1F71FC1975AB96002D8167 /* TLTweet.m in Sources */,
+				3C5C1A521971DF950029B2AF /* TLAppDelegate.m in Sources */,
+				3C7B0B4C19773FAB003BDFAC /* TLTabBarViewController.m in Sources */,
+				3C1F71FF1975B102002D8167 /* TLTweetsLocationManager.m in Sources */,
+				3C5C1A4E1971DF950029B2AF /* main.m in Sources */,
+				3C7B0B46197722F7003BDFAC /* TLTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5C1A5E1971DF950029B2AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5C1A701971DF950029B2AF /* TwitLocationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C5C1A681971DF950029B2AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C5C1A3D1971DF940029B2AF /* TwitLocation */;
+			targetProxy = 3C5C1A671971DF950029B2AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C5C1A4A1971DF950029B2AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5C1A4B1971DF950029B2AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C5C1A531971DF950029B2AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5C1A541971DF950029B2AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C5C1A6C1971DF950029B2AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5C1A6D1971DF950029B2AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C5C1A711971DF950029B2AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C5C1A721971DF950029B2AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C5C1A741971DF950029B2AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029C22D5C2494641BA4D2D98 /* Pods-TwitLocation.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitLocation/TwitLocation-Prefix.pch";
+				INFOPLIST_FILE = "TwitLocation/TwitLocation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C5C1A751971DF950029B2AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029C22D5C2494641BA4D2D98 /* Pods-TwitLocation.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitLocation/TwitLocation-Prefix.pch";
+				INFOPLIST_FILE = "TwitLocation/TwitLocation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3C5C1A771971DF950029B2AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TwitLocation.app/TwitLocation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitLocation/TwitLocation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TwitLocationTests/TwitLocationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3C5C1A781971DF950029B2AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TwitLocation.app/TwitLocation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitLocation/TwitLocation-Prefix.pch";
+				INFOPLIST_FILE = "TwitLocationTests/TwitLocationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C5C1A391971DF940029B2AF /* Build configuration list for PBXProject "TwitLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5C1A711971DF950029B2AF /* Debug */,
+				3C5C1A721971DF950029B2AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5C1A731971DF950029B2AF /* Build configuration list for PBXNativeTarget "TwitLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5C1A741971DF950029B2AF /* Debug */,
+				3C5C1A751971DF950029B2AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5C1A761971DF950029B2AF /* Build configuration list for PBXNativeTarget "TwitLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5C1A771971DF950029B2AF /* Debug */,
+				3C5C1A781971DF950029B2AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C5C1A361971DF940029B2AF /* Project object */;
+}
